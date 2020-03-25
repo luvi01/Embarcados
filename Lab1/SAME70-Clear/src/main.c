@@ -74,16 +74,17 @@ void init(void)
 // Funcao principal chamada na inicalizacao do uC.
 int main(void)
 {
-  init();
+	// inicializa sistema e IOs
+	init();
 
-  // super loop
-  // aplicacoes embarcadas não devem sair do while(1).
-  while (1)
-  {
-	  pio_set(PIOC, LED_PIO_IDX_MASK);      // Coloca 1 no pino LED
-	  delay_ms(200);                        // Delay por software de 200 ms
-	  pio_clear(PIOC, LED_PIO_IDX_MASK);    // Coloca 0 no pino do LED
-	  delay_ms(200);                        // Delay por software de 200 ms
-  }
-  return 0;
+	// super loop
+	// aplicacoes embarcadas não devem sair do while(1).
+	while (1)
+	{
+		pio_set(PIOC, LED_PIO_IDX_MASK);      // Coloca 1 no pino LED
+		delay_ms(200);                        // Delay por software de 200 ms
+		pio_clear(PIOC, LED_PIO_IDX_MASK);    // Coloca 0 no pino do LED
+		delay_ms(200);                        // Delay por software de 200 ms
+	}
+	return 0;
 }
