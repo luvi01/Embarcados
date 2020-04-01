@@ -22,3 +22,5 @@ O Button SW0 da placa é responsável por realizar a funcionalidade de pause/pla
 
 O arquivo musicas.h contém a frequência de todas as notas musicais requeridas pelas músicas, existem nele também as sequências de notas musicais junto com as suas durações para todas as melodias do programa. Estas são combinadas no main.c em struts, para depois serem alimentadas na função “play_music(note_s melody[], double songspeed, int n)”, que por sua vez faz diversas chamadas a função “void tone(int frequency, double duration)”, que é responsável por gerar uma onda quadrada com a frequência e duração passadas pela música, para o buzzer. Assim criando a música.
 
+<img src="diagrama.png" alt="esquema" width=75% height=75% />
+
