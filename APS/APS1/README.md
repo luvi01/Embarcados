@@ -7,15 +7,15 @@ Vídeo do projeto: https://drive.google.com/open?id=1eaSwhrywcAwf1M0y3g0GuGRmNPe
 
 # Materiais :
 
-1x Microcontrolador Atmel SAME70 Xplained
-1x Periférico OLED1 Xplained
-1x Buzzer 5V
-1x Jumpers macho-fêmea
+Microcontrolador Atmel SAME70 Xplained
+Periférico OLED1 Xplained
+Buzzer 5V
+Jumpers macho-fêmea
 
-1x O Button do periférico OLED1 seleciona a música 1
-1x O Button do periférico OLED1 seleciona a música 2
-1x O Button do periférico OLED1 seleciona a música 3
-1x O Button SW0 da placa é responsável por realizar a funcionalidade de pause/play
+O Button do periférico OLED1 seleciona a música 1
+O Button do periférico OLED1 seleciona a música 2
+O Button do periférico OLED1 seleciona a música 3
+O Button SW0 da placa é responsável por realizar a funcionalidade de pause/play
 
 
 # Programa :
