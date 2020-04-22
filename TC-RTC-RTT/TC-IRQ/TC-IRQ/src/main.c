@@ -68,6 +68,8 @@ void pisca_led(int n, int t){
 }
 
 
+
+
 /**
 * @Brief Inicializa o pino do LED
 */
@@ -127,7 +129,7 @@ int main(void){
   
 	while (1)	{
     if(flag_tc){
-      pisca_led(1,10);
+      
       flag_tc = 0;
     }
         
